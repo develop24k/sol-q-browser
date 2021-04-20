@@ -22,7 +22,7 @@ public class SolQConsumerApplication {
         SpringApplication.run(SolQConsumerApplication.class, args);
     }
 
-    @JmsListener(destination = "DRE-DEV-00",containerFactory = "myFactory")
+    @JmsListener(destination = "OneRisk/Apps/DAIS",containerFactory = "myFactory")
     public void handle(Message message) {
 
         Date receiveTime = new Date();

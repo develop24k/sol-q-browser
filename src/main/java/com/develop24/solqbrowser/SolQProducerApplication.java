@@ -15,7 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Enumeration;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SolQProducerApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(SolQProducerApplication.class, args);
